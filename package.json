@@ -1,14 +1,24 @@
 {
   "name": "project-node",
   "version": "1.0.0",
-  "description": "this is first node project",
+  "description": "first project",
   "main": "app.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon src/app.js"
   },
-  "author": "hasneet singh",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hasneet/project-node.git"
+  },
+  "author": "Hasneet Singh",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hasneet/project-node/issues"
+  },
+  "homepage": "https://github.com/Hasneet/project-node#readme",
   "dependencies": {
-    "express": "^4.17.2"
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15"
   }
 }
